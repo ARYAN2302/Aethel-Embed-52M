@@ -1,6 +1,6 @@
 # Aethel: What We Are Building
 
-Aethel is a 100M-parameter, long-context, memory-augmented, hybrid embedding model designed for real-world RAG, code retrieval, document understanding, and efficient local inference. It combines DeltaNet, sliding-window attention, and a TITANS-lite memory module to create dense + sparse hybrid embeddings, solving key gaps in the 2025 embedding landscape.
+Aethel is a 53M-parameter, long-context, memory-augmented, hybrid embedding model designed for real-world RAG, code retrieval, document understanding, and efficient local inference. It combines DeltaNet, sliding-window attention, and a TITANS-lite memory module to create dense + sparse hybrid embeddings, solving key gaps in the 2025 embedding landscape.
 
 ---
 
@@ -16,7 +16,7 @@ Aethel is designed to address core limitations in current embedding models:
 * No memory or personalization
 * Overly heavy models (>500M params)
 
-Aethel is the **first sub-150M model** to combine:
+Aethel is the **first sub-60M model** to combine:
 
 * Long-context capability (up to 32k tokens)
 * Memory-based document compression (Titans-lite)
