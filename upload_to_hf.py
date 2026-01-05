@@ -91,7 +91,7 @@ tokenizer = AutoTokenizer.from_pretrained("tokenizer/")
 
 if __name__ == "__main__":
     # Replace with your desired repo name
-    REPO_ID = "ARYAN2302/Aethel-Embed-53M" 
+    REPO_ID = "aryan2302/Aethel-Embed-53M" 
     CHECKPOINT = "checkpoints/aethel-step5000.pt"
     
     if os.path.exists(CHECKPOINT):
