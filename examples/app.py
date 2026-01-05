@@ -563,6 +563,7 @@ class AethelDashboard:
             st.markdown("---")
             st.markdown("### 📚 Resources")
             st.markdown("- [GitHub](https://github.com/ARYAN2302/Aethel-Embed-52M)")
+            st.markdown("- [Hugging Face Model](https://huggingface.co/aryan2302/Aethel-Embed-53M)")
             
             st.markdown("---")
             st.markdown("### ⚙️ Model Specs")
