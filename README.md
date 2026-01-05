@@ -1,6 +1,13 @@
 # Aethel
 
-Aethel is a ~100M-parameter, long-context, memory-augmented hybrid embedding model for RAG, code retrieval, and document understanding. It combines a gated DeltaNet backbone, sliding-window attention, a TITANS-lite memory module, and dual dense+sparse heads (Matryoshka 768→128 plus SPLADE-lite top-k keywords) to deliver compact, production-ready embeddings.
+Aethel is a ~53M-parameter, long-context, memory-augmented hybrid embedding model for RAG, code retrieval, and document understanding. It combines a gated DeltaNet backbone, sliding-window attention, a TITANS-lite memory module, and dual dense+sparse heads (Matryoshka 768→128 plus SPLADE-lite top-k keywords) to deliver compact, production-ready embeddings.
+
+---
+
+## 🤗 Hugging Face
+
+- **Model Card**: [aryan2302/Aethel-Embed-53M](https://huggingface.co/aryan2302/Aethel-Embed-53M)
+- **Live Demo**: [Aethel-Embed Dashboard](https://huggingface.co/spaces/aryan2302/Aethel-embed-demo)
 
 ---
 
@@ -47,7 +54,7 @@ The Streamlit dashboard includes:
 ### Benchmark Comparisons
 - **VRAM Usage** - Aethel vs BGE-M3 vs MiniLM
 - **Long-Context Recall** - Performance at 4.5k tokens
-- **Parameter Efficiency** - 100M vs 560M parameters
+- **Parameter Efficiency** - 53M vs 560M parameters
 - **Key Metrics** - 6.6× lower VRAM, better recall
 
 ### Model Architecture
@@ -112,11 +119,11 @@ Built-in: mini STS (STS-B dev), synthetic long-context recall, code retrieval.
 
 ## Benchmark Results
 
-| Metric | Aethel (~100M) | BGE-M3 (560M) | BGE-base |
+| Metric | Aethel (~53M) | BGE-M3 (560M) | BGE-base |
 |--------|---------------|---------------|----------|
 | VRAM (4k tokens) | 2.1 GB | 14.0 GB | 8.5 GB |
 | Long-Context Recall (4.5k) | 92.5% | 88.3% | 85.1% |
-| Parameters | ~100M | ~560M | ~110M |
+| Parameters | ~53M | ~560M | ~110M |
 
 ---
 
